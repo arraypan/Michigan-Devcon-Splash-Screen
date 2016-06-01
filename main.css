@@ -1,0 +1,89 @@
+
+
+
+/***********************
+  ROUND BUTTONS
+************************/
+.round {
+  border-radius: 34px;
+  height: 70px;
+}
+
+
+
+/***********************
+  CUSTON BTN VALUES
+************************/
+
+
+
+.jumbotron {
+	background: url('cover.png');
+	background-size: cover;
+}
+
+.container2 a{
+
+  background-color: orange;
+  height: 38px;
+
+  font-weight: 300px;
+
+
+padding-top: 50px;
+padding-right: 30px;
+padding-bottom: 50px;
+padding-left: 30px;
+
+}
+
+.btn-primary {
+    background: orange;
+    color: #ffffff;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: B8BEC6;
+
+}
+.navbar-fixed-top {
+  margin-right: 0px;
+  margin-top: 0px;
+
+}
+
+
+.form-text{
+
+  color: orange;
+
+}
+.year{
+
+  color: orange;
+
+}
+.navbar{
+
+  margin-right: 0px;
+  margin-top: 0px;
+
+}
+
+.spacesside{
+
+  margin-righ: 0px;
+   margin-top: 0px
+
+}
+
+.divider{
+    width:15px;
+    height:auto;
+    display:inline-block;
+}
+.apple{
+
+  text-decoration-color: orange;
+
+
+}
