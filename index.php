@@ -1,46 +1,5 @@
-<?php
-
-
-$user = 'root';
-$password = 'root';
-$db = 'inventory';
-$host = 'localhost';
-$port = 8889;
-
-$link = mysql_connect(
-   "$host:$port",
-   $user,
-   $password
-);
-$db_selected = mysql_select_db(
-   $db,
-   $link
-);
-
-
-
-?>
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
-
-
-<script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyBlgOC-prxWOsLmSHAXPuu6sj9v9PrEmvY",
-    authDomain: "midevcon.firebaseapp.com",
-    databaseURL: "https://midevcon.firebaseio.com",
-    storageBucket: "midevcon.appspot.com",
-  };
-  firebase.initializeApp(config);
-</script>
-
-
 
   <head>
 		<title>MiDevCon</title>
@@ -58,6 +17,34 @@ $db_selected = mysql_select_db(
 
 
   <body class="jumbotron jumbotron-fluid bg-info ">
+
+
+    <?php
+
+
+    $user = 'root';
+    $password = 'root';
+    $db = 'inventory';
+    $host = 'localhost';
+    $port = 8889;
+
+    $link = mysql_connect(
+       "$host:$port",
+       $user,
+       $password
+    );
+    $db_selected = mysql_select_db(
+       $db,
+       $link
+    );
+
+
+
+    ?>
+
+
+
+
 
     <!-- navbar -->
     		<nav class="navbar navbar-dark navbar-fixed-top ">
@@ -124,26 +111,26 @@ $db_selected = mysql_select_db(
            <!-- registration form -->
 
 
-           <form>
+           <form id="sponserform" action="sponerinfo.php" method="post">
              <h5 class="m-b-2 form-text">Basic Info</h5>
              <fieldset class="form-group">
                <label for="name" class="colorfield form-text" class="form-text">Name:</label>
-               <input type="text" class="form-control" id="name">
+               <input type="text" value="name" name="name" class="form-control" id="name">
              </fieldset>
              <fieldset class="form-group">
                <label for="company_name" class="form-text">Company Name:</label>
-               <input type="text" class="form-control" id="company_name">
+               <input type="text" value="company_name" name="company_name"class="form-control" id="company_name">
              </fieldset>
              <fieldset class="form-group">
                <label for="mail" class="form-control-label p-l-0 form-text">Email:</label>
-               <input type="email" class="form-control form-control-danger" id="mail">
+               <input type="email" value="email" name="email" class="form-control form-control-danger" id="mail">
 
              </fieldset>
 
 
              <fieldset class="form-group">
                <label for="comment" class="form-control-label p-l-0 form-text">Additional Info:</label>
-               <input type="text" class="form-control" id="company_name">
+               <input type="text" value="comment" name="comment" class="form-control" id="company_name">
 
              </fieldset>
 

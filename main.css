@@ -10,11 +10,25 @@
 }
 
 
+.email_link{
 
+  color: white;
+}
+.email_link:hover{
+
+  color: #00c0d1;
+}
 /***********************
   CUSTON BTN VALUES
 ************************/
 
+input[type="text"]
+{
+    font-size:16px;
+    color: #00c0d1;
+    font-weight: 20;
+    font-size-adjust: auto;
+}
 
 
 .jumbotron {
@@ -24,7 +38,7 @@
 
 .container2 a{
 
-  background-color: orange;
+  background-color: #ffae19;
   height: 38px;
 
   font-weight: 300px;
@@ -38,11 +52,11 @@ padding-left: 30px;
 }
 
 .btn-primary {
-    background: orange;
+    background: #ffae19;
     color: #ffffff;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
-    background: B8BEC6;
+    background: #00c0d1;
 
 }
 .navbar-fixed-top {
@@ -54,15 +68,15 @@ padding-left: 30px;
 
 .form-text{
 
-  color: orange;
+  color: #ffae19;
 
 }
 .year{
 
-  color: orange;
+  color: #ff7f7f;
 
 }
-.navbar{
+.navbar-brand{
 
   margin-right: 0px;
   margin-top: 0px;
@@ -83,7 +97,7 @@ padding-left: 30px;
 }
 .apple{
 
-  text-decoration-color: orange;
+  text-decoration-color: #ffae19;
 
 
 }
