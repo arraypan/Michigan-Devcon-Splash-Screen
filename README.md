@@ -7,4 +7,4 @@ Oakland University Hackathon Club is hosting a Michigan Developer Conference in 
 
 ## License
 
-Expanding collection is released under the  GNU GENERAL PUBLIC LICENSE Version 3. See [LICENSE](./LICENSE) for details.
+Expanding collection is released under the  GNU GENERAL PUBLIC LICENSE Version 3. See [LICENSE](./License.md) for details.
